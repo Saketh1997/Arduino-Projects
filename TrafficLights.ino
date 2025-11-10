@@ -9,6 +9,7 @@ void setup() {
 }
 
 void loop() {
+  //This loops the lights in the same way as a traffic light.
   digitalWrite(red, LOW);
   digitalWrite(green, HIGH);
   delay(5000);
